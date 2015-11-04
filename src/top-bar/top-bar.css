@@ -1,0 +1,10 @@
+.bar {
+  height: 78px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 8px;
+  background-color: #21292b;
+  color: white;
+}

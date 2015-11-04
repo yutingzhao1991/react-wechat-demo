@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDom from 'react-dom'
 import { Router, Route, Link } from 'react-router'
 
-import NavBar from './nav-bar.jsx'
-import TopBar from './top-bar.jsx';
+import NavBar from './nav-bar/nav-bar.jsx'
+import TopBar from './top-bar/top-bar.jsx';
 
 class App extends React.Component {
   render() {

@@ -7,8 +7,8 @@ Start
 ---
 
 ```
-npm i
-npm run dev
+npm install
+npm run dev & open http://localhost:8080
 ```
 
 then visit http://localhost:8080/webpack-dev-server/ to get the demo.

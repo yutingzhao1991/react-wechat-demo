@@ -1,0 +1,17 @@
+.main {
+  height: 90px;
+  width: 90px;
+  display: inline-block;
+  text-align: center;
+  font-size: 22px;
+  color: #979797;
+}
+
+.active {
+  color: #45c018;
+}
+
+.icon {
+  font-size: 42px;
+  margin-bottom: 12px;
+}

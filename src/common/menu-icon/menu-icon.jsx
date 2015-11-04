@@ -1,18 +1,6 @@
 import React from 'react'
 
-var styles = {
-  height: '90px',
-  width: '90px',
-  display: 'inline-block',
-  textAlign: 'center',
-  color: '',
-  fontSize: '22px'
-}
-
-var iconStyle = {
-  fontSize: '42px',
-  marginBottom: '12px'
-}
+import styles from './menu-icon.css'
 
 class MenuIcon extends React.Component {
 
@@ -24,16 +12,13 @@ class MenuIcon extends React.Component {
   }
 
   render() {
-    var className = 'fa fa-' + this.props.type
+    var className = styles.icon + ' fa fa-' + this.props.type
     if (this.state.active) {
-      styles.color = '#45c018'
-    } else {
-      styles.color = '#979797'
+      className += ' ' + styles.active
     }
-
     return (
-      <div style={styles}>
-        <i className={className} style={iconStyle}></i>
+      <div className={ styles.main }>
+        <i className={ className }></i>
         <div>{this.props.name}</div>
       </div>
     )
